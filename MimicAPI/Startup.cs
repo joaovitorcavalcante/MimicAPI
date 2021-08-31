@@ -11,8 +11,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using MimicAPI.Repositories.Contracts;
-using MimicAPI.Repositories;
+using MimicAPI.V1.Repositories.Contracts;
+using MimicAPI.V1.Repositories;
 using AutoMapper;
 using MimicAPI.Helpers;
 
@@ -46,6 +46,10 @@ namespace MimicAPI
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddScoped<IWordRepository, WordRepository>();
+            services.AddApiVersioning(cfg => {
+                cfg.ReportApiVersions = true;
+                cfg.DefaultApiVersion = new Microsoft.AspNetCore.Mvc.ApiVersion(1, 0);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

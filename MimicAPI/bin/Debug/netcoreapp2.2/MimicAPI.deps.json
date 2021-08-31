@@ -29,7 +29,10 @@
     ".NETCoreApp,Version=v2.2": {
       "MimicAPI/1.0.0": {
         "dependencies": {
+          "AutoMapper": "9.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Versioning": "3.1.6",
+          "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": "3.1.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
           "Microsoft.EntityFrameworkCore.Tools": "2.2.6",
@@ -40,6 +43,50 @@
         },
         "compile": {
           "MimicAPI.dll": {}
+        }
+      },
+      "AutoMapper/9.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Versioning/3.1.6": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.7172.37315"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer/3.1.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.ApiExplorer": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Versioning": "3.1.6"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.1.6930.19469"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll": {}
         }
       },
       "Microsoft.Data.Sqlite.Core/2.2.6": {
@@ -3422,6 +3469,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
+      "path": "automapper/9.0.0",
+      "hashPath": "automapper.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning/3.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tlM7c315iLDGr+2D7MK3GzEX8tGUj5joxc2p0j+fW6CkrJnXbnNj+yRUkm6SYDQ2pdshgvxySrB1g/bLBbtI3g==",
+      "path": "microsoft.aspnetcore.mvc.versioning/3.1.6",
+      "hashPath": "microsoft.aspnetcore.mvc.versioning.3.1.6.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hhDtBv9XSlAX4xr/wfor03z9sIHBVNz6DBVL0oCVF1GgZDqHAZNUdZ6CsJGtX2EjrgCXYWCa7P2xIjSB5uSgjg==",
+      "path": "microsoft.aspnetcore.mvc.versioning.apiexplorer/3.1.0",
+      "hashPath": "microsoft.aspnetcore.mvc.versioning.apiexplorer.3.1.0.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/2.2.6": {
       "type": "package",

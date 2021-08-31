@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "U98GB6rmxEWY9cHE3bk8K3o+24CN2gJ5AciM8ikcWeJ34nf3Cywz/W0JJMBeJp0uRL9yIoexIF/ktAPsRjmdHw==",
+  "dgSpecHash": "KN/Ohku1EGZKZiFtQlEuF9bpF3D5B01tY3C8Tw62GFNoEkmN3CxNmyyLHtYN7FJ/VmbTLtE1auMX9DRgGWBxbQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\jvcbd\\Workspace\\ASP.NET CORE API\\MimicAPI\\MimicAPI\\MimicAPI.csproj",
   "expectedPackageFiles": [
@@ -70,6 +70,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.mvc.razor.viewcompilation\\2.2.0\\microsoft.aspnetcore.mvc.razor.viewcompilation.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.mvc.razorpages\\2.2.0\\microsoft.aspnetcore.mvc.razorpages.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.mvc.taghelpers\\2.2.0\\microsoft.aspnetcore.mvc.taghelpers.2.2.0.nupkg.sha512",
+    "C:\\Users\\jvcbd\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\3.1.6\\microsoft.aspnetcore.mvc.versioning.3.1.6.nupkg.sha512",
+    "C:\\Users\\jvcbd\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\3.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.3.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.mvc.viewfeatures\\2.2.0\\microsoft.aspnetcore.mvc.viewfeatures.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.nodeservices\\2.2.0\\microsoft.aspnetcore.nodeservices.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.owin\\2.2.0\\microsoft.aspnetcore.owin.2.2.0.nupkg.sha512",
