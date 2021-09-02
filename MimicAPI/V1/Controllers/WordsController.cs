@@ -26,6 +26,11 @@ namespace MimicAPI.V1.Controllers
             this.mapper = mapper;
         }
 
+        /// <summary>
+        ///     Operação que pega do banco de dados todas as palavras existentes.
+        /// </summary>
+        /// <param name="query">Filtros de pesquisa</param>
+        /// <returns>Listagem de palavras</returns>
         [HttpGet("", Name = "Index")]
         public ActionResult Index([FromQuery] UrlQueryWord query)
         {
@@ -68,6 +73,12 @@ namespace MimicAPI.V1.Controllers
             return Ok(list);
         }
 
+
+        /// <summary>
+        ///     Operação que pega uma única palavra.
+        /// </summary>
+        /// <param name="id">Código identificador da palavra</param>
+        /// <returns>Um objeto de palavra</returns>
         [HttpGet("{id}", Name = "Show")]
         public ActionResult Show(int id)
         {
@@ -84,6 +95,11 @@ namespace MimicAPI.V1.Controllers
             return Ok(wordDTO);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="word"></param>
+        /// <returns></returns>
         [Route("")]
         [HttpPost]
         public ActionResult Store([FromBody] Word word)
@@ -128,6 +144,11 @@ namespace MimicAPI.V1.Controllers
             return Ok();
         }
 
+        /// <summary>
+        ///     Operação que desativa uma palavra do sistema.
+        /// </summary>
+        /// <param name="id">Código indetificador da palavra</param>
+        /// <returns></returns>
         [HttpDelete("{id}", Name = "Remove")]
         public ActionResult Remove(int id)
         {
